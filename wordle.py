@@ -2,6 +2,8 @@ import random #to generate a random word
 from rich import print #allows colors in terminals to make it bonita
 import json #to save the stats locally for each person
 import os #to check whether the stats file already exists or not
+import sys #debugging + figuring out demo
+
 
 #function to print on same line
 def printL(a):

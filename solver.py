@@ -1,9 +1,12 @@
 #a simple wordle solver bot using words.txt
+import os #to check whether the stats file already exists or not
+import sys #debugging + figuring out demo
 from wordle import score
 from wordle import color 
 from rich import print #allows colors in terminals to make it bonita
-import random #randomly choose a word
+import random #randomly choose a wor
        
+
 #function: filters out such that only possible solutions remain                 
 def filter_candidates(words ,guess, result):
     #uses inverse functions concept [hardest part to code]

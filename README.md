@@ -4,7 +4,16 @@ A recreation of the famous NYT daily game Wordle in Python where a person gets 6
 ![alt text](image-1.png)
 
 # Try it here
-Try it:
+
+Must have: Python 3.12+ and Git
+
+```bash
+git clone https://github.com/amaranthine0/Wordle.git
+cd Wordle
+python3 -m pip install -r requirements.txt
+python3 wordle.py #play Wordle
+python3 solver.py #watch bot solve it
+```
 
 # Features
 - Stats: shows games played, total wins, streaks, and other stats per player for total games played
